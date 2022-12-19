@@ -9,6 +9,7 @@
             list.Addnote(70);
             list.Addnote(30);
             list.Addnote(56);
+
             Console.WriteLine("Printing LinkedList");
             list.Display();
         }
