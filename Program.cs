@@ -6,11 +6,15 @@
         {
             LinkedList list = new LinkedList();
             Console.WriteLine("Adding Values in LinkedList");
-            list.AddReverse(56);
-            list.AddReverse(30);
-            list.AddReverse(70);
+            list.AddNote(56);
+            list.AddNote(70);
 
             Console.WriteLine("Printing LinkedList");
+            list.Display();
+
+
+            list.Insert(2, 30);
+            Console.WriteLine("Printing Updated LinkedList");
             list.Display();
         }
     }
