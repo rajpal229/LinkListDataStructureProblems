@@ -17,7 +17,7 @@
             Console.WriteLine("Printing Updated LinkedList");
             list.Display();
 
-            list.DeleteFirst();
+            list.DeleteLast();
             Console.WriteLine("Printing Updated LinkedList");
             list.Display();
         }
