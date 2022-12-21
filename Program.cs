@@ -6,9 +6,9 @@
         {
             LinkedList list = new LinkedList();
             Console.WriteLine("Adding Values in LinkedList");
-            list.Addnote(70);
-            list.Addnote(30);
-            list.Addnote(56);
+            list.AddReverse(56);
+            list.AddReverse(30);
+            list.AddReverse(70);
 
             Console.WriteLine("Printing LinkedList");
             list.Display();

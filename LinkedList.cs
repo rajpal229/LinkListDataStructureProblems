@@ -9,7 +9,7 @@ namespace LinkedListProblems
     public class LinkedList
     {
         Node head;
-        public void Addnote(int data)
+        public void AddNote(int data)
         {
             Node node = new Node(data);
             if (head == null)
@@ -46,6 +46,20 @@ namespace LinkedListProblems
                     tempnode = tempnode.Next;
                 }
                 Console.WriteLine("\n");
+            }
+        }
+        public void AddReverse(int data)
+        {
+            Node node = new Node(data);
+            if (head == null)
+            {
+                head = node;
+            }
+            else
+            {
+                Node temp = head;
+                head = node;
+                head.Next = temp;
             }
         }
     }
