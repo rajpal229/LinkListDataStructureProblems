@@ -16,6 +16,10 @@
             list.Insert(2, 30);
             Console.WriteLine("Printing Updated LinkedList");
             list.Display();
+
+            list.DeleteFirst();
+            Console.WriteLine("Printing Updated LinkedList");
+            list.Display();
         }
     }
 }

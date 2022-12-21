@@ -86,5 +86,15 @@ namespace LinkedListProblems
                 temp.Next = node;
             }
         }
+        public void DeleteFirst()
+        {
+            Node node = head;
+            if (head.Next != null)
+            {
+                node = head;
+                head = head.Next;
+                node = null;
+            }
+        }
     }
 }
